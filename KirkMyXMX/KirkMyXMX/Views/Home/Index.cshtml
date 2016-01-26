@@ -2,30 +2,54 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+@section Scripts {
+    @Scripts.Render("~/Scripts/my-scripts/jquery-1.11.1.min.js")
+    @Scripts.Render("~/Scripts/my-scripts/device.min.js")
+    @Scripts.Render("~/Scripts/my-scripts/jquery.mb.YTPlayer.js")
+    @Scripts.Render("~/Scripts/my-scripts/custom.js")
+   
+}
+
+<section class="big-background">
+    <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=K_xTet06SUo',containment:'body',autoPlay:true, mute:false, startAt:0, opacity:1}"></a>
+
+    <div class="pattern"></div>
+    <div class="big-background-container">
+        <h1 class="big-background-title">Киркинатор</h1>
+        <div class="divider"></div>
+        <h1 id="colorize">Личный сайт Кирилла Кандидатова</h1>
+        <a href="http://kirkmyxmx.azurewebsites.net/" class="big-background-btn">Интернет-версия</a>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
+</section>
+
+
+
+<div class="wrapper">
+
+    <section class="about-section">
+
+        <div class="about-section-container">
+            <h2 class="about-section-title">Продвинутая версия сайта</h2>
+            <p>Добро пожаловать на моём сайте, пока это тестовый экземпляр, но всё же мы на правильном пути! Ознакомиться с исходным кодом можете можно на гитхабе!</p>
+            <a href="https://github.com/Kirk7by" target="_blank" class="about-section-btn">Гитхаб!</a>
+        </div>
+
+    </section>
+
+
+    <section class="small-background-section">
+        <div class="pattern"></div>
+        <div class="small-background-container">
+            <h2 class="small-background-title"><span>В дальнейшем будет происходить портирование всех моих проектов на этот домен!</span></h2>
+            <ul class="socials">
+                <li><a href="https://vk.com/kirk_by" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+                <li><a href="https://twitter.com/kirk_by" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCNlu0Kh2EHRYLRzEJGJG8eA" target="_blank"><i class="fa fa-google-plus-square fa-3x"></i></a></li>
+
+            </ul>
+        </div>
+    </section>
+
+
 </div>

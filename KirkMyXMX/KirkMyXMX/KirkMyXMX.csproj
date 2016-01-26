@@ -211,10 +211,15 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\my-css\normalize.css" />
+    <Content Include="Content\my-css\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\images\divider.png" />
+    <Content Include="Content\images\pattern.png" />
+    <Content Include="Content\images\sunset.jpg" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -232,6 +237,10 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\my-scripts\custom.js" />
+    <Content Include="Scripts\my-scripts\device.min.js" />
+    <Content Include="Scripts\my-scripts\jquery-1.11.1.min.js" />
+    <Content Include="Scripts\my-scripts\jquery.mb.YTPlayer.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
