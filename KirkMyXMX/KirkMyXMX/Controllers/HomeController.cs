@@ -9,7 +9,7 @@ namespace KirkMyXMX.Controllers
 {
     public class HomeController : Controller
     {
-        MainClass MyClass = new MainClass { Pame = "TESTPAME"};
+        MainClass MyClass = new MainClass();
         
         public ActionResult Index()
         {

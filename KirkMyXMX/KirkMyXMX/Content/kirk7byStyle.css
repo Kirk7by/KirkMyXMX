@@ -1,0 +1,91 @@
+﻿@charset "UTF-8";
+/* line 1, ../sass/kirk7byStyle.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 20, ../sass/kirk7byStyle.scss */
+* {
+  margin: 0px;
+}
+
+/* line 24, ../sass/kirk7byStyle.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+ul.buttons-head-menu li ul
+{
+	display:none; 
+	position:absolute;
+	top:100%;
+	left:0;
+	background:rgba(21, 21, 29, 0.58);
+	padding:0
+}
+ul.buttons-head-menu li:hover > ul
+{
+        display:block;
+}
+/* line 85, ../sass/kirk7byStyle.scss */
+ul.buttons-head-menu li a {
+
+  -webkit-transform: skewX(-18deg);
+  /* Для Safari и Chrome */
+  -moz-transform: skewX(-18deg);
+  /* Для Firefox */
+  -o-transform: skewX(-18deg);
+  /* Для Opera */
+  -ms-transform: skewX(-18deg);
+  /* Для IE */
+  transform: skewX(-18deg);
+  /* CSS3 */
+  padding: 15px 15px 15px 15px;
+  /* Поля вокруг текста */
+  transition: .1s ease-out;
+  display: block;
+  /* Блочный элемент */
+  text-decoration: none;
+  /* Убираем подчёркивание */
+  font-family: 'Comic Sans MS';
+  font-size: 14pt;
+  z-index: 0;
+}
+/* line 108, ../sass/kirk7byStyle.scss */
+ul.buttons-head-menu a:hover {
+    /*  transform: scale(1.4); */
+    /*
+  text-align:center;
+  box-shadow: 0 8px 16px 0 rgba(35, 31, 6, 0), 0 6px 20px 0 rgba(212, 212, 212, 0.77);
+  z-index: 5;
+    */
+    /*  background-color:red;*/
+}
+
+ul.buttons-head-menu-quadro li:hover > ul
+{
+	display:block
+}
+ul.buttons-head-menu-quadro li a {
+    transition: .1s ease-out;
+    transform:none;
+  /* Блочный элемент */
+  text-decoration: none;
+  /* Убираем подчёркивание */
+  font-family: 'Comic Sans MS';
+  font-size: 14pt;
+  z-index: 0;
+}

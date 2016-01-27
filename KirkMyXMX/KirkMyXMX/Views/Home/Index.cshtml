@@ -1,14 +1,13 @@
 ﻿@model KirkMyXMX.Models.MainClass
 @{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Главная";
 }
 
 @section Scripts {
     @Scripts.Render("~/Scripts/my-scripts/jquery-1.11.1.min.js")
     @Scripts.Render("~/Scripts/my-scripts/device.min.js")
     @Scripts.Render("~/Scripts/my-scripts/jquery.mb.YTPlayer.js")
-    @Scripts.Render("~/Scripts/my-scripts/custom.js")
-   
+    @Scripts.Render("~/Scripts/my-scripts/custom.js")   
 }
 
 <section class="big-background">
@@ -19,6 +18,8 @@
         <h1 class="big-background-title">Киркинатор </h1>
         <div class="divider"></div>
         <h1 id="colorize">Личный сайт Кирилла Кандидатова </h1>
+        <h1> @Model.Name</h1>
+        <h1> @Model.Pame</h1>
         <a href="http://kirkmyxmx.azurewebsites.net/" class="big-background-btn">Интернет-версия</a>
     </div>
 </section>

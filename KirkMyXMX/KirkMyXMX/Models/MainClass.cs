@@ -8,8 +8,8 @@ namespace KirkMyXMX.Models
     public class MainClass
     {
         //метод рандомящий видеоссылки
-        private static int nyaZong=0;
-        private static int nyanyaZong = 0;
+        static int nyaZong=0;
+        static int nyanyaZong = 0;
         public string GetString()
         {
             Random rnd = new Random();
@@ -53,7 +53,6 @@ namespace KirkMyXMX.Models
                 Hyperlinks = new string[]
                 {
                 "https://www.youtube.com/watch?v=K_xTet06SUo",
-                "https://www.youtube.com/watch?v=-Gu_Hwnvp5U",
                 "https://www.youtube.com/watch?v=t0AKLRDPKUc",
                 "https://www.youtube.com/watch?v=ySvwgyt_fSw",
                 "https://www.youtube.com/watch?v=nHA-ByU7OHU",
@@ -65,8 +64,8 @@ namespace KirkMyXMX.Models
             return Hyperlinks[rnd.Next(0, Hyperlinks.Length)];
         }
 
-        public string Name { get; set; }
-        public string Pame { get; set; }
+        public string Name { get { return "Test1:"+Convert.ToString(nyaZong); } set { } }
+        public string Pame { get { return "Test2: "+Convert.ToString(nyanyaZong); } set { } }
         public string Getother()
         {
             return "Faq";
