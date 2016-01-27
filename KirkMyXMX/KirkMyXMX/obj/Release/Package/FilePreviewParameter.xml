@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="KirkMyXMX" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\my\ program\ Projects\\KirkMyXMX\\KirkMyXMX\\KirkMyXMX\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\my\ program\ Projects\\KirkMyXMX\\KirkMyXMX\\KirkMyXMX\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-KirkMyXMX-20160126022831.mdf;Initial Catalog=aspnet-KirkMyXMX-20160126022831;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\my\ program\ Projects\\KirkMyXMX\\KirkMyXMX\\KirkMyXMX\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
