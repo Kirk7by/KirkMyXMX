@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KirkMyXMX.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,9 +9,12 @@ namespace KirkMyXMX.Controllers
 {
     public class HomeController : Controller
     {
+        MainClass MyClass = new MainClass { Pame = "TESTPAME"};
+        
         public ActionResult Index()
         {
-            return View();
+            
+            return View(MyClass);
         }
 
         public ActionResult About()
